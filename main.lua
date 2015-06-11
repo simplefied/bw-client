@@ -17,7 +17,7 @@ function love.load()
 		states.load("error", "Graphics mode setting error.")
 	end
 	ui.init()
-	network.init("localhost", 27161)
+	network.init("bacteriumwars.ru", 27161)
 	states.load("connection")
 end
 
